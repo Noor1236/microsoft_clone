@@ -5,7 +5,7 @@ const OrganizeLifeSection = () => {
   return (
     <section className="relative w-full flex flex-col md:flex-row items-center justify-center">
       {/* Card Container */}
-      <div className="relative bg-white shadow-lg rounded-lg overflow-hidden w-full md:w-auto">
+      <div className="relative bg-white dark:bg-gray-900 shadow-lg rounded-lg overflow-hidden w-full md:w-auto">
         
         {/* Card Image */}
         <img
@@ -15,7 +15,7 @@ const OrganizeLifeSection = () => {
         />
 
         {/* Overlay for Desktop */}
-        <div className="hidden md:block absolute inset-0 "></div>
+        <div className="hidden md:block absolute inset-0"></div>
 
         {/* Content for Desktop (Right Side) */}
         <div className="absolute inset-0 hidden md:flex items-center justify-end text-white p-6 md:p-12 pr-12">
@@ -35,9 +35,9 @@ const OrganizeLifeSection = () => {
       </div>
 
       {/* Content Below Image for Mobile */}
-      <div className="md:hidden p-6 text-center text-black">
+      <div className="md:hidden p-6 text-center text-black dark:text-white">
         <h2 className="text-3xl font-bold">Organise your life</h2>
-        <p className="mt-3 text-lg text-gray-700">
+        <p className="mt-3 text-lg text-gray-700 dark:text-gray-300">
           Keep your ideas and notes organised with OneNote.
         </p>
         <a
